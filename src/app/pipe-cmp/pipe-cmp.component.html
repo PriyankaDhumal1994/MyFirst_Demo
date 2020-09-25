@@ -1,0 +1,17 @@
+<p>{{ title | uppercase }}</p>
+<p>{{ title | lowercase }}</p>
+<p>{{ title | titlecase }}</p>
+<p>{{ today | date: "d/m/y" }}</p>
+<p>{{ today | date: "y/m/d" }}</p>
+<p>{{ today | date: "m/y" }}</p>
+<p>{{ today | date: "y" }}</p>
+<p>{{ today | date: "shortTime" }}</p>
+<p>{{ today | date: "shortDate" }}</p>
+<p>{{ jsonval | json }}</p>
+<p>{{ 6589.23 | currency: "USD" }}</p>
+<p>{{ 454.7878714 | number: "3.4-4" }}</p>
+<p>{{ 00.54565 | number: "3.4-4" }}</p>
+<p>suare of 5 is : {{ 5 | squarepipe }}</p>
+<p>suare of 4 is : {{ 5 | squarepipe: 4 }}</p>
+<p>suare of 5 is : {{ 5.6 | squarepipe | number: "3.4-4" }}</p>
+<p>{{ "priyanka" | slice: 2:6 }}</p>

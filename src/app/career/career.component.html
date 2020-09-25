@@ -1,0 +1,17 @@
+<p>career works!</p>
+<!-- with anchor tag with nested path like ./<childcomponent-path> -->
+<nav>
+  <a routerLink="./email">Email Us</a><br />
+  <a routerLink="./call">Call Us</a>
+</nav>
+<!-- with button and click event using router.navigate() method -->
+<button (click)="showEmail()">Email Click</button><br /><br />
+<button (click)="showCall()">Call Click</button>
+
+<!-- with button and routerLink directives -->
+<button routerLink="./email">Email Click</button><br /><br />
+<button routerLink="./call">Call Click</button>
+
+<router-outlet><h2>Hii</h2></router-outlet>
+<div>I am priyanka</div>
+<!-- <router-outlet></router-outlet> -->
